@@ -1,8 +1,8 @@
 # ASCII character manipulation example
 GCC=gcc
 
-changeCase: changeCase.c test.c
-	${GCC} -o changeCase changeCase.c test.c
+change_case: change_case.c test.c
+	${GCC} -o change_case change_case.c test.c
 
 clean:
-	rm changeCase
+	rm change_case

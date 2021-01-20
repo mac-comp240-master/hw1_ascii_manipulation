@@ -2,12 +2,12 @@
 
 **NAMES FOR CODE FILES:** 
 
-	changeCase.c
+	change_case.c
 	test.c
 
 **NAME FOR CODE EXECUTABLE:** 
 
-	changeCase
+	change_case
 
 ### ASCII character manipulation to change case
 
@@ -20,20 +20,20 @@ You will write functions that contain a bitmask variable for the case-shift bit.
 	 * Toggles the case of every alphabetic character in the string,
 	 * keeping non-alpha characters intact.
 	 */
-	void toggleCase(char *s, char *newstr)
+	void toggle_case(char *s, char *newstr)
 
 	/*
 	 * Lowers the case of every alphabetic character in the string,
 	 * keeping non-alpha characters intact.
 	 */
-	void lowerCase(char *s, char *newstr)
+	void lower_case(char *s, char *newstr)
 
 
 	/*
 	 * Raises the case of every alphabetic character in the string,
 	 * keeping non-alpha characters intact.
 	 */
-	void upperCase(char *s, char *newstr)
+	void upper_case(char *s, char *newstr)
 
 The basic framework for each of these is a for loop that will handle each character in the string `s` and place it into the string `newstr`. You may want to start by getting this loop working by simply printing back each character. Note that once you have the loop working over each character, then you can use your mask and operator on each character to create a new character to print out.
 

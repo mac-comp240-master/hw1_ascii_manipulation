@@ -6,7 +6,7 @@
  * Purely for an example of looping through a string.
  * Use as a guide- you will need to do more in the functions below.
  */
-void printStr(char *s) {
+void print_str(char *s) {
   	/* loop over a string using subscript*/
 		int i;
     for(i = 0; i < strlen(s); i++) {
@@ -30,8 +30,8 @@ void append(char* s, char c)
  * Toggles the case of every alphabetic character in the string,
  * keeping non-alpha charaters intact.
  */
-void toggleCase(char *s, char *newstr){
-		strcpy(newstr, ""); // initialize
+void toggle_case(char *s, char *newstr){
+	strcpy(newstr, ""); // initialize
 
 }
 
